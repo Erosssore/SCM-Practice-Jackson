@@ -1,4 +1,5 @@
 # Name class takes inputs from n which is then converted to a Name object and passed into the world() function
+# Change from merger.
 class Name:
     # OOP Initialization and Function
     def __init__(self, name):
