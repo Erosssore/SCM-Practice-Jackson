@@ -2,9 +2,9 @@ class Name:
     def __init__(self, name):
         self.name = name
     def world(self):
-        print("Hello World, my name is", self.name, "\n"
+        print("\nHello World, my name is", self.name, "\n"
               "this is the SCM project!")
 
-
-n = Name('Jackson')
-n.world()
+n = input("What is your name: ")
+user = Name(n)
+user.world()
